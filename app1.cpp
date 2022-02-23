@@ -15,7 +15,9 @@ void singleDivision(int a, int b, int c, int d){
 int main(){
     int a{};
     int b{};
+    std::cout << "Integer 1: ";
     std::cin >> a;
+    std::cout << "Integer 2: ";
     std::cin >> b;
     int c{a};
     int d{b};
