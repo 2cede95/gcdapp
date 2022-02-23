@@ -1,6 +1,6 @@
 #include <iostream>
 
-int singleDivision(int a, int b, int c, int d){
+void singleDivision(int a, int b, int c, int d){
     int divisor{a/b};
     int remainder{a%b};
     std::cout << b << " x " << divisor << " + " << remainder << " = " << a << '\n';
@@ -9,8 +9,7 @@ int singleDivision(int a, int b, int c, int d){
 }
         else{
         std::cout << "gcd(" << c << ", " << d << ") = " << b;
-}
-    return 0;
+}   
 }
 
 int main(){
